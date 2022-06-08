@@ -1,18 +1,23 @@
 *{
 margin:0;
 padding:0;
+    
+}
+
+body{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+ height:1000px;
 }
 #MainBox{
-
     width:350px;
     height:450px;
-    background-color: grey;
-    border: 10px solid black;
-    border-style:groove;
+    background-color: black;
+    border: 10px groove red;
     border-radius: 10px;
     position: relative;
-    margin-left: 30%;
-    margin-top: 10%;
 
 }
 #OutputBox{
@@ -20,24 +25,33 @@ padding:0;
     height:50px;
     top:2%;
     margin-left:8%;
-    border: 10px solid grey;
+    border: 10px solid black;
     background-color: white;
     border-radius:21px;
 
 }
 #InputBox{
     width:250px;
-    height:50px;
-    border: 10px solid;
-    background-color: white;
+    height:70px;
+    border: 10px groove white;
+    background-color: black;
     border-radius:10px;
+    color: red;
+    font-size: x-large;
 }
 button{
     height:55px;
     width:45px;
     border-radius: 15px;
-    border: 2px solid;
+    border: 2px groove red;
+    font-size: larger;
+    background-color: white;
 }
+
+button:hover{
+ box-shadow: 0vw 0vw 1vw red;
+}
+
  table{
     margin-left: 10%;
     margin-top: 25%;
